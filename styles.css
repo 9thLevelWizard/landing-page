@@ -89,3 +89,12 @@ body {
 }
 
 /* HERO SECTION */
+
+/* INFORMATION SECTION */
+
+.information {
+    display: flex;
+    flex-direction: row;
+}
+
+/* INFORMATION SECTION */
