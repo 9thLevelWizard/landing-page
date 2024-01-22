@@ -161,3 +161,55 @@ body {
 }
 
 /* TESTIMONIAL SECTION */
+
+/* CALL-TO-ACTION SECTION */
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call-to-action .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 75%;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.call-to-action .center .text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.call-to-action .center .text h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.call-to-action .center .text p {
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 300;
+}
+
+.call-to-action .center button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid #F9FAF8;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+}
+
+/* CALL-TO-ACTION SECTION */
