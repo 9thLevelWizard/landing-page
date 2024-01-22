@@ -74,7 +74,14 @@ body {
 
 .hero-left button {
     background-color: #3882F6;
-    color: #e5e7eb;
+    color: #F9FAF8;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
 }
 
 .hero-right {
@@ -205,11 +212,11 @@ body {
     color: #F9FAF8;
     border: solid #F9FAF8;
     border-radius: 10px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
     width: 150px;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* CALL-TO-ACTION SECTION */
