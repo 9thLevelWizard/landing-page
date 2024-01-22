@@ -97,6 +97,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 
 .information h1 {
@@ -108,7 +109,7 @@ body {
 .information ul {
     display: flex;
     flex-direction: row;
-    gap: 36px;
+    gap: 40px;
 }
 
 .information li {
@@ -127,8 +128,36 @@ body {
 .information img {
     height: 150px;
     width: 150px;
-    border: #3882F6 solid;
+    border: #3882F6 4px solid;
     border-radius: 10px;
 }
 
 /* INFORMATION SECTION */
+
+/* TESTIMONIAL SECTION */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #e5e7eb;
+}
+
+.testimonial h1 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+}
+
+.testimonial p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: right;
+}
+
+/* TESTIMONIAL SECTION */
